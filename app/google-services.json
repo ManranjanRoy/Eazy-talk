@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "939152002796",
+    "firebase_url": "https://eazetalk-8ed81.firebaseio.com",
+    "project_id": "eazetalk-8ed81",
+    "storage_bucket": "eazetalk-8ed81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939152002796:android:fb819ea455cfd4749d9fc9",
+        "android_client_info": {
+          "package_name": "com.ventrux.eazetalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939152002796-k8p8h81ktfpiiifducfmk0nlngntsidd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ventrux.eazetalk",
+            "certificate_hash": "a55b7e1849a1534896dc54639a4629c3187fbf7e"
+          }
+        },
+        {
+          "client_id": "939152002796-25vm2u1fkociilioa3ha843icp3i9q2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOs9oZXXfzHFPpO5bWiXJBCIle06Fjg-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939152002796-25vm2u1fkociilioa3ha843icp3i9q2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:checked="true"
+        android:enabled="true"
+        android:icon="@drawable/home_run"
+        android:title="HOME"
+        app:showAsAction="ifRoom" />
+    <item
+        android:enabled="true"
+        android:id="@+id/action_search"
+        android:checked="false"
+        android:icon="@drawable/live"
+        android:title="Live"
+        app:showAsAction="ifRoom" />
+    <item
+        android:enabled="true"
+        android:id="@+id/action_wishlist"
+        android:checked="false"
+        android:icon="@drawable/chat_box"
+        android:title="Chat"
+        app:showAsAction="ifRoom" />
+    <item
+        android:enabled="true"
+        android:id="@+id/action_cart"
+        android:checked="false"
+        android:icon="@drawable/call_icon"
+        android:title="Voice Call"
+        app:showAsAction="ifRoom" />
+    <item
+        android:enabled="true"
+        android:id="@+id/action_profile"
+        android:checked="false"
+        android:icon="@drawable/video_icon"
+        android:title="Video Call"
+        app:showAsAction="ifRoom" />
+</menu>

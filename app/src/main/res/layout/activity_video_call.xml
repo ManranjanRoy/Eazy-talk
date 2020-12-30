@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.VideoCallActivity">
+    <include  layout="@layout/fragment_income_call" android:id="@+id/calllayout"/>
+
+   <RelativeLayout
+       android:id="@+id/framevideocall"
+       android:visibility="gone"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/subscriber_container" />
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:id="@+id/publisher_container"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:padding="2dp"
+            android:background="#FFFFFF" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/element_set_video_buttons"
+            layout="@layout/view_action_buttons_conversation_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/empty_stub"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_common" />
+    </LinearLayout>
+   </RelativeLayout>
+</RelativeLayout>
